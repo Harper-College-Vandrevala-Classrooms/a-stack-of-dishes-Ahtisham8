@@ -1,7 +1,7 @@
-class Dish {
-    public String description;
+class Dish<T> {
+    public T description;
   
-    Dish(String description) {
+    Dish(T description) {
       this.description = description;
     }
   }
